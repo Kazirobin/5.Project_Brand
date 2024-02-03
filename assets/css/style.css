@@ -86,3 +86,32 @@ html{
     font-size: 1.3rem;
     font-weight:500;
 }
+.form{
+    background-color: #FF9017;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-uesr{
+    display: flex;
+}
+.form input{
+    padding: 10px;
+}
+.form-input_user{
+    width: 50%;
+}
+.form-input_number{
+margin-left: 5px;
+width: 50%;
+}
+.form-input_message{
+    height: 200px;
+}
+.form-btn{
+    background-color: #00B517;
+    padding-block: 10px;
+}
