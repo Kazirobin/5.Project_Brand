@@ -166,6 +166,7 @@ html {
   padding: 5px 20px;
   border: 5px solid var(--color-primary);
   cursor: pointer;
+  color: var(--color-white);
 }
 .nav__menu {
 }
@@ -176,6 +177,8 @@ html {
   flex-direction: column;
   align-items: center;
   padding-inline: 10px;
+  color: var(--color-gray-600);
+
 }
 .nav__menu__item__link__icon {
   width: 16px;
