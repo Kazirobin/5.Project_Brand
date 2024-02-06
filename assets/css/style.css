@@ -153,7 +153,7 @@ html {
 }
 .nav__search__input {
   text-align: center;
-  padding: 5px;
+  padding: 5px; 
   width: 282.5px;  
 }  
 .nav__search__select {
