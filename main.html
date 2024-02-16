@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            font-family: sans-serif;
+            background-color: red;
+            height: 200px;
+            margin: 20px;
+            color: lightseagreen;
+            font-size: 80px;
+            font-weight: 800;
+            text-align: center;
+            -webkit-text-stroke: 4px  #fff;
+        }
+        .box-1{
+            background: radial-gradient(#9c27b0, #ff9800);
+        }
+        .box-2{
+            background: radial-gradient(#9c27b0 40%, #ff9800 50%);
+        }
+        .box-3{
+            background: radial-gradient(circle,#9c27b0 40%, #ff9800 50%);
+        }
+        .box-4{
+            /*  circle at left/right / circle at top/bottom/ circle at top left */
+            background: radial-gradient(circle at bottom,#9c27b0 40%, #ff9800 40% 70%, #9c27b0 0);
+        }
+        .box-5{
+            background: conic-gradient(#9c27b0 25%,#ff9800 25% 50%, #9c27b0 50% 75%, #ff9800 75% 0);
+        }
+        .box-6{
+            background: repeating-conic-gradient(#9c27b0 0 30deg,#ff9800 30deg 60deg);
+        }
+        .box-7{
+            background-image: radial-gradient(circle at center, #9c27b0 2px, #000 0);
+            background-size: 15px 15px;
+            mix-blend-mode: difference;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box-1">box-1</div>
+    <div class="box box-2">box-2</div>
+    <div class="box box-3">box-3</div>
+    <div class="box box-4">box-4</div>
+    <div class="box box-5">box-5</div>
+    <div class="box box-6">box-6</div>
+    <div class="box box-7">box-7</div>
+    <div class="box box-8">box-8</div>
+    <div class="box box-9">box-9</div>
+    <div class="box box-10">box-10</div>
+</body>
+</html>
